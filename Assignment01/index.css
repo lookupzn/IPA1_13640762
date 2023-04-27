@@ -1,0 +1,135 @@
+#navBar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+    background-color: black;
+    padding: 28px;
+    max-height: 100vh; 
+    overflow-y: auto;  
+}
+
+.product-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: red;
+}
+
+
+#navBar a, .dropdown-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+#navBar .dropdown-container a {
+    font-size: 18px;
+    color: rgb(250, 4, 4);
+}
+.active {
+    color:orange;
+}
+
+
+.dropdown-container{
+    display: none;
+    background-color: #483a3a3e;
+    padding-left: 6px 6px 4px 12px;
+}
+
+#banner {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px 14px 14px 22px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#banner span {
+    color: black;
+    background-color: #f50000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#topRight {
+    top: 50px;
+    position: absolute;
+    left: 280px;
+    width: 1245px;
+    height: 100%;
+    background-color: rgb(169, 102, 107);
+    display: flex;
+    justify-content: center; 
+}
+
+#cartBar {
+    position: fixed;
+    bottom:5px;
+    right: 5px;
+    height: 300px;
+    min-width: 500px;
+    max-width: 800px;
+    width: 100%;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #111;
+    margin: 0;
+}
+
+#CartBar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#shoppingCartHeader {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    cursor: move;
+    z-index: 20;
+    background-color: rgb(244, 10, 10);
+    color: #000000;
+}
+
+#shoppingCart, #detail {
+    width: 100%;
+    height: 100%;
+}
+
+#searchBar {
+    position: absolute;
+    top:0;
+    left:300px;
+}
+
+#keywords{
+    min-width: 400px;
+    max-width: 700px;
+    height: 35px;
+}
+
+#selectDrop{
+    height: 35px;
+}
+
+#searchBtn {
+    height: 35px;
+}
